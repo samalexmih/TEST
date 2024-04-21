@@ -1,0 +1,42 @@
+.form-btn {
+    display: inline-block;
+    border-radius: 10px;
+    width: 300px;
+    height: 56px;
+    background-color: #ffa500;;
+    font-family: "FuturaFuturisC";
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 17px;
+}
+
+.step-btn {
+    display: inline-block;
+    border-radius: 10px;
+    width: 300px;
+    height: 56px;
+    background-color: #ffa500;;
+    font-family: "FuturaFuturisC";
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 17px;
+}
+
+.footer-btn {
+    font-family: "FuturaFuturisC";
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    background-color: #969af7;
+    border-radius: 10px;
+    width: 261px;
+    height: 56px;
+    padding: 19px 52px;
+}

@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEMITEX</title>
+    
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./css/burger-menu.css">
+    <link rel="stylesheet" href="./css/carusel.css">
+
+    <link rel="stylesheet" href="./css/swipper.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    
+</head>
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__inner">
+                <div class="container">
+                    <div class="header__line">
+                        <nav class="header__nav">
+
+                            <button class="navigation" role="navigation">
+                                <div id="menuToggle">
+                                  <input class="input-btn" type="checkbox"/>
+                                  <span></span>
+                                  <span></span>
+                                  <span></span>
+                                  <ul class="menu" id="menu">
+                                    <a href="#"><li>Каталог</li></a>
+                                    <a href="#"><li>Производители</li></a>
+                                    <a href="#"><li>Для кого мы работаем</li></a>
+                                    <a href="#"><li>Сертификаты</li></a>
+                                    <a href="#"><li>О нас</li></a>
+                                    <a href="#"><li>FAQ</li></a>
+                                    <a href="#"><li>Контакты</li></a>
+                                  </ul>
+                                </div>
+                            </button>
+
+                            <a href="!#" class="header__logo">
+                                <img class="header__logo-img" src="./icons/logo.svg" alt="logo">
+                            </a>
+
+    
+                                <ul class="header__nav-list">
+                                    <li class="header__nav-item">
+                                        <a class="header__nav-link" href="!#">
+                                            Каталог
+                                        </a>
+                                    </li>
+                                    <li class="header__nav-item">
+                                        <a class="header__nav-link" href="!#">
+                                            Производители
+                                        </a>
+                                    </li>
+                                    <li class="header__nav-item">
+                                        <a class="header__nav-link" href="!#">
+                                            Для кого мы работаем
+                                        </a>
+                                    </li>
+                                    <li class="header__nav-item">
+                                        <a class="header__nav-link" href="!#">
+                                            Сертификаты
+                                        </a>
+                                    </li>
+                                    <li class="header__nav-item">
+                                        <a class="header__nav-link" href="!#">
+                                            О нас
+                                        </a>
+                                    </li>
+                                    <li class="header__nav-item">
+                                        <a class="header__nav-link" href="!#">
+                                            FAQ
+                                        </a>
+                                    </li>
+                                    <li class="header__nav-item">
+                                        <a class="header__nav-link" href="!#">
+                                            Контакты
+                                        </a>
+                                    </li>
+                                </ul>
+
+
+                                <a href="tel:+78123135845" class="contact-link">
+                                    <div class="contact-info">
+                                        <div class="phone-icon">
+                                            <i class="fas fa-phone">
+                                                <img src="./icons/telephone.svg" alt=telephone-icon">
+                                            </i>
+                                        </div>
+                                        <div class="phone-number">
+                                            <span class="telephone-number">+7 (812) 313-58-45</span>
+                                        </div>
+                                    </div>
+                                </a>
+                        </nav>
+                    </div>
+
+                    <div class="header__info">
+                        <div class="header__info-inner">
+                            <h1 class="header__info-title">
+                                Оптовые поставки 
+                                <span>электронных компонентов</span><br>
+                                <span>из китая день в день</span>
+                            </h1>
+                            <p class="header__info-text">Комплексные поставки электронных компонентов и оборудования. 
+                                Подберем аналоги популярных брендов из Европы в условиях санкций.
+                            </p>
+                            <div class="header__info-advantages">
+                                <ul class="advantages__list">
+                                    <li class="advantages__list-item">
+                                        <img class="item-img" src="./icons/marker.svg" alt="marker">
+                                        <p class="item-text">Отсрочка платежей для постоянных клиентов</p>
+                                    </li>
+                                    <li class="advantages__list-item">
+                                        <img class="item-img" src="./icons/marker.svg" alt="marker">
+                                        <p class="item-text">Бесплатная доставка по Москве и СПБ в течение 2х часов</p>
+                                    </li>
+                                    <li class="advantages__list-item">
+                                        <img class="item-img" src="./icons/marker.svg" alt="marker">
+                                        <p class="item-text">Квалифицированный персональный менеджер</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header__form">
+                            <form class="form" action="!#">
+
+                                    <h3 class="top-title">
+                                        ЗАКАЖИТЕ <br> ОБРАТНЫЙ ЗВОНОК
+                                    </h3>
+                                        <div class="inputs">   
+                                            <div class="form__container">
+                                                <div class="input__name">
+                                                    <p class="input__text">
+                                                        Ваше имя*
+                                                    </p>
+                                                    <input type="text" placeholder="Петров Петр">
+                                                </div>
+        
+                                                <div class="input__telephone">
+                                                    <p class="input__text">
+                                                        Ваш номер*
+                                                    </p>
+                                                    <input type="text" placeholder="+7 (_ _ _) _ _ _-_ _-_ _">
+                                                </div>
+        
+                                                <div class="form__bottom">
+                                                    <button class="form-btn">
+                                                        Заказать звонок
+                                                    </button>
+                                                    <a class="mandatory">
+                                                        <img class="lock-img" src="./image/lock.svg" alt="lock">
+                                                        <p class="mandatory-text">Мы гарантируем конфиденциальность данных</p>
+                                                    </a>
+                                                </div>
+                                            </div>    
+                                        </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <section class="advantages__card">
+            <h3 class="advantages__card-title">
+                Почему с нами выгодно
+            </h3>
+                <p class="advantages__card-text">
+                    С 1996 года мы занимаемся оптовыми поставками электронных компонентов от ведущих производителей из Европы 
+                    и Азии для Российских потребителей. 
+                </p>
+                <div class="container">
+                    <div class="advantages__cards">
+                        <div class="advantages__cards-list">
+                            <div class="card-items">
+                                <div class="card__inner">
+                                    <img class="inner-img" src="./image/item-1.svg" alt="">
+                                    <p class="card-text">
+                                        <h4 class="inner-title">
+                                            Качественная продукция
+                                        </h4>
+                                        <h5 class="inner-subtitle">
+                                            Все наши товары сертифицированы и имеют сопроводительную документацию.
+                                        </h5>
+                                    </p>
+                                </div>
+                                <div class="card__inner">
+                                    <img class="inner-img" src="./image/item-1.svg" alt="">
+                                    <p class="card-text">
+                                        <h4 class="inner-title">
+                                            Индивидуальный подход
+                                        </h4>
+                                        <h5 class="inner-subtitle">
+                                            Возможность изготовления компонентов специально для васа заводах-изготовителя.
+                                        </h5>
+                                    </p>
+                                </div>
+                                <div class="card__inner">
+                                    <img class="inner-img" src="./image/item-1.svg" alt="">
+                                    <p class="card-text">
+                                        <h4 class="inner-title">
+                                            Бесплатная доставка
+                                        </h4>
+                                        <h5 class="inner-subtitle">
+                                            При наличии товара на складе и заказе от 10 000 рублей,оставим бесплатно по Москве и СПБ в течение 2х часов.
+                                        </h5>
+                                    </p>
+                                </div>
+                                <div class="card__inner">
+                                    <img class="inner-img" src="./image/item-1.svg" alt="">
+                                    <p class="card-text">
+                                        <h4 class="inner-title">
+                                            Подбираем аналоги
+                                        </h4>
+                                        <h5 class="inner-subtitle">
+                                            Поможем подобрать аналоги популярных европейских брендов в условиях санкций.
+                                        </h5>
+                                    </p>
+                                </div>
+                                <div class="card__inner">
+                                    <img class="inner-img" src="./image/item-1.svg" alt="">
+                                    <p class="card-text">
+                                        <h4 class="inner-title">
+                                            Резервный запас компонентов
+                                        </h4>
+                                        <h5 class="inner-subtitle">
+                                            Хранение товара на наших складах для постоянных клиентов..
+                                        </h5>
+                                    </p>
+                                </div>
+                                <div class="card__inner">
+                                    <img class="inner-img" src="./image/item-1.svg" alt="">
+                                    <p class="card-text">
+                                        <h4 class="inner-title">
+                                            Гибкая система оплаты
+                                        </h4>
+                                        <h5 class="inner-subtitle">
+                                            Отсрочка платежей для постоянных клиентов.
+                                        </h5>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section> 
+
+        <section class="manufactures">
+            <h3 class="manufactures-title">
+                Наши производители
+            </h3>
+            <div class="container-carusel">
+                <div class="manufactures__inner">
+                    <div class="gallery js-flickity">
+                        <div class="gallery-cell">
+                          <img src="../image/image 5.svg" style="width: 150px;height: 94px;" alt="">
+                        </div>
+                        <div class="gallery-cell">
+                          <img src="../image/image 6.svg" style="width: 186px;height: 47px;" alt="">
+                        </div>
+                        <div class="gallery-cell">
+                          <img src="../image/image 7.svg" style="width: 106px;height: 106px;" alt="">
+                        </div>
+                        <div class="gallery-cell">
+                          <img src="../image/image 8.svg" style="width: 171px;height: 116px;" alt="">
+                        </div>
+                        <div class="gallery-cell">
+                          <img src="../image/image 9.svg" style="width: 183px;height: 40px;" alt="">
+                        </div>
+                        <div class="gallery-cell">
+                          <img src="../image/image 5.svg" alt="">
+                        </div>
+                        <div class="gallery-cell">
+                          <img src="../image/image 6.svg" alt="">
+                        </div>
+                        <div class="gallery-cell">
+                          <img src="../image/image 7.svg" alt="">
+                        </div>
+                        <div class="gallery-cell">
+                          <img src="../image/image 8.svg" alt="">
+                        </div>
+                        <div class="gallery-cell">
+                          <img src="../image/image 9.svg" alt="">
+                        </div>
+                      </div>
+                </div>
+
+                <div class="manufactures__subtitle">
+                    <p class="subtitle-text">
+                        Lorem ipsum dolor sit amet consectetur. Non eget blandit in euismod felis id quisque nunc. 
+                        Non orci lacus elit mauris velit gravida imperdiet id. Ipsum pulvinar ac ut sociis. Sed magna gravida 
+                        consequat et euismod aenean quis mauris. Ut etiam egestas ultrices faucibus ultrices nisl enim consequat faucibus. 
+                        Nibh id leo ullamcorper eleifend. Id at commodo interdum et leo. 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="work-step">
+
+
+                <div class="container">
+                    <div class="work-title">
+                        <h3 class="">
+                            Схема работы
+                        </h3>
+                        <p class="work-subtitle">
+                            Lorem ipsum dolor sit amet consectetur. Augue velit in enim sagittis imperdiet sit mauris. Vitae sit in fusce massa amet.
+                        </p>
+                    </div>
+                    <div class="work-cards">
+                        <div class="work-items">
+                            <div class="card__item-inner">
+                                <img src="./image/card-1.svg" alt="card-1">
+                                <div class="card__item-text">
+                                  <div class="card-title">
+                                    <h4>01</h4>
+                                    <p>ВЫ ОСТАВЛЯЕТЕ ЗАЯВКУ</p>
+                                  </div>
+                                  <p class="card-text">Отправить запрос вы можете любым удобным для вас способом: например, через форму на сайте. Также вы можете связаться с нами напрямую.</p>
+                                </div>
+                              </div>
+                              
+                            <div class="card__item-inner">
+                                <img src="./image/card-2.png" alt="card-2">
+                                <div class="card__item-text">
+                                    <div class="card-title">
+                                      <h4>02</h4>
+                                      <p>МЫ ПРОВЕРЯЕМ НАЛИЧИЕ ПОЗИЦИЙ</p>
+                                    </div>
+                                    <p class="card-text">
+                                        Проверяем наличие на складе, а также актуальность производства (возможна замена, если необходимо.) Если требуется замена - подбираем аналоги и привозим на заказ.
+                                    </p>
+                                  </div>
+                            </div>
+                            <div class="card__item-inner">
+                                <img src="./icons/card-3.png" alt="card-3">
+                                <div class="card__item-text">
+                                    <div class="card-title">
+                                      <h4>03</h4>
+                                      <p>ФОРМИРУЕМ КОММЕРЧЕСКОЕ <br> ПРЕДЛОЖЕНИЕ</p>
+                                    </div>
+                                    <p class="card-text">
+                                        Проверяем наличие на складе, а также актуальность производства (возможна замена, если необходимо.) Если требуется замена - подбираем аналоги и привозим на заказ.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card__item-inner card-six">
+                                <img src="./icons/card-6.png" alt="card-6">
+                                <div class="card__item-text">
+                                    <div class="card-title">
+                                      <h4>06</h4>
+                                      <p>ВЫ ПОЛУЧАЕТЕ ТОВАР</p>
+                                    </div>
+                                    <p class="card-text">
+                                        Поставляем вам товар в надлежащей упаковке в сопровождении оригиналов всех необходимых документов либо вы забираете его самовывозом.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card__item-inner card-five">
+                                <img src="./icons/card-5.png" alt="card-5">
+                                <div class="card__item-text">
+                                    <div class="card-title">
+                                      <h4>05</h4>
+                                      <p>МЫ ВЫПОЛНЯЕМ ЗАКАЗ</p>
+                                    </div>
+                                    <p class="card-text">
+                                        Товар поступает на склад в Москву или Санкт-Петербург, где мы сверяем правильность поставки и начинаем сборку.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card__item-inner card-four">
+                                <img src="./icons/card-4.png" alt="card-4">
+                                <div class="card__item-text">
+                                    <div class="card-title">
+                                      <h4>04</h4>
+                                      <p>ПРОВОДИМ ОПЛАТУ</p>
+                                    </div>
+                                    <p class="card-text">
+                                        Далее, после получения авансового платежа, мы размещаем заказ.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-step-btn">
+                    <button class="step-btn">
+                        ОСТАВИТЬ ЗАЯВКУ
+                    </button>
+                </div>
+        </section>
+
+        <section class="questions">
+            <h3 class="question-title">
+                Ответы на самые популярные вопросы в сфере
+            </h3>
+            <div class="question__block">
+                <div class="container">
+                    <div class="questions__inner">
+                        <div class="question-items">
+                            <div class="question-card">
+                                <details class="question__list">
+                                    <summary class="list-hidden">
+                                        <div class="list__hidden-content">
+                                            <p>Lorem ipsum dolor sit amet consectetur. Ultrices aliquam.</p>
+                                            <img src="./icons/strelka.svg" alt="">
+                                        </div>
+                                    </summary>
+                                    <div class="list-content">
+                                        <p class="list-disclosed">
+                                            Like the phrase “stem cell” itself, “stem cell therapy” is often used to describe a variety of different medical therapies that utilize stem cells in some form to treat a patient. Sometimes the term is used incorrectly to refer to platelet rich plasma (PRP) injections. The term is also used to refer to stem cell transplants, also known as bone marrow transplants. <br> <br>
+                                            Most commonly “stem cell therapy” is used to describe a procedure where the patient’s adult stem cells and other potentially regenerative cells are harvested from a tissue sample of either fat or bone marrow taken from the patient. These concentrated regenerative cells are then used to treat specific injuries typically by injecting them into the afflicted area. It should be said that this type of stem cell therapy is currently not FDA approved and clinics performing it illegally in the US or in other countries perform various versions of the procedure to treat illnesses and injuries with little to no clinical evidence. <br> <br>
+                                            At InGeneron we use the term “regenerative cell therapy” since there are many different cell types and regenerative properties collected and used by our therapy along with adult stem cells. Importantly we do not treat patients outside of our approved clinical trials and we are dedicated to securing FDA approval through rigorous clinical testing. <br> <br>
+                                        </p>
+                                        <button class="collapse">
+                                            <img src="./icons/collaps.png" alt="" style="width: 40px; height: 40px;">
+                                        </button>
+                                    </div>
+                                  </details>
+                            </div>
+                            <div class="question-card">
+                                <details class="question__list">
+                                    <summary class="list-hidden">
+                                        <div class="list__hidden-content">
+                                            <p>Lorem ipsum dolor sit amet consectetur. Ultrices aliquam.</p>
+                                            <img src="./icons/strelka.svg" alt="">
+                                        </div>
+                                    </summary>
+                                    <div class="list-content">
+                                        <p class="list-disclosed">
+                                            Like the phrase “stem cell” itself, “stem cell therapy” is often used to describe a variety of different medical therapies that utilize stem cells in some form to treat a patient. Sometimes the term is used incorrectly to refer to platelet rich plasma (PRP) injections. The term is also used to refer to stem cell transplants, also known as bone marrow transplants. <br> <br>
+                                            Most commonly “stem cell therapy” is used to describe a procedure where the patient’s adult stem cells and other potentially regenerative cells are harvested from a tissue sample of either fat or bone marrow taken from the patient. These concentrated regenerative cells are then used to treat specific injuries typically by injecting them into the afflicted area. It should be said that this type of stem cell therapy is currently not FDA approved and clinics performing it illegally in the US or in other countries perform various versions of the procedure to treat illnesses and injuries with little to no clinical evidence. <br> <br>
+                                            At InGeneron we use the term “regenerative cell therapy” since there are many different cell types and regenerative properties collected and used by our therapy along with adult stem cells. Importantly we do not treat patients outside of our approved clinical trials and we are dedicated to securing FDA approval through rigorous clinical testing. <br> <br>
+                                        </p>
+                                        <button class="collapse">
+                                            <img src="./icons/collaps.png" alt="" style="width: 40px; height: 40px;">
+                                        </button>
+                                    </div>
+                                  </details>
+                            </div>
+                            <div class="question-card">
+                                <details class="question__list">
+                                    <summary class="list-hidden">
+                                        <div class="list__hidden-content">
+                                            <p>Lorem ipsum dolor sit amet consectetur. Ultrices aliquam.</p>
+                                            <img src="./icons/strelka.svg" alt="">
+                                        </div>
+                                    </summary>
+                                    <div class="list-content">
+                                        <p class="list-disclosed">
+                                            Like the phrase “stem cell” itself, “stem cell therapy” is often used to describe a variety of different medical therapies that utilize stem cells in some form to treat a patient. Sometimes the term is used incorrectly to refer to platelet rich plasma (PRP) injections. The term is also used to refer to stem cell transplants, also known as bone marrow transplants. <br> <br>
+                                            Most commonly “stem cell therapy” is used to describe a procedure where the patient’s adult stem cells and other potentially regenerative cells are harvested from a tissue sample of either fat or bone marrow taken from the patient. These concentrated regenerative cells are then used to treat specific injuries typically by injecting them into the afflicted area. It should be said that this type of stem cell therapy is currently not FDA approved and clinics performing it illegally in the US or in other countries perform various versions of the procedure to treat illnesses and injuries with little to no clinical evidence. <br> <br>
+                                            At InGeneron we use the term “regenerative cell therapy” since there are many different cell types and regenerative properties collected and used by our therapy along with adult stem cells. Importantly we do not treat patients outside of our approved clinical trials and we are dedicated to securing FDA approval through rigorous clinical testing. <br> <br>
+                                        </p>
+                                        <button class="collapse">
+                                            <img src="./icons/collaps.png" alt="" style="width: 40px; height: 40px;">
+                                        </button>
+                                    </div>
+                                  </details>
+                            </div>
+                            <div class="question-card">
+                                <details class="question__list">
+                                    <summary class="list-hidden">
+                                        <div class="list__hidden-content">
+                                            <p>Lorem ipsum dolor sit amet consectetur. Ultrices aliquam.</p>
+                                            <img src="./icons/strelka.svg" alt="">
+                                        </div>
+                                    </summary>
+                                    <div class="list-content">
+                                        <p class="list-disclosed">
+                                            Like the phrase “stem cell” itself, “stem cell therapy” is often used to describe a variety of different medical therapies that utilize stem cells in some form to treat a patient. Sometimes the term is used incorrectly to refer to platelet rich plasma (PRP) injections. The term is also used to refer to stem cell transplants, also known as bone marrow transplants. <br> <br>
+                                            Most commonly “stem cell therapy” is used to describe a procedure where the patient’s adult stem cells and other potentially regenerative cells are harvested from a tissue sample of either fat or bone marrow taken from the patient. These concentrated regenerative cells are then used to treat specific injuries typically by injecting them into the afflicted area. It should be said that this type of stem cell therapy is currently not FDA approved and clinics performing it illegally in the US or in other countries perform various versions of the procedure to treat illnesses and injuries with little to no clinical evidence. <br> <br>
+                                            At InGeneron we use the term “regenerative cell therapy” since there are many different cell types and regenerative properties collected and used by our therapy along with adult stem cells. Importantly we do not treat patients outside of our approved clinical trials and we are dedicated to securing FDA approval through rigorous clinical testing. <br> <br>
+                                        </p>
+                                        <button class="collapse">
+                                            <img src="./icons/collaps.png" alt="" style="width: 40px; height: 40px;">
+                                        </button>
+                                    </div>
+                                  </details>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__inner">
+                <div class="container">
+                    <div class="footer__line">
+                        <nav class="footer__nav">
+
+                            <a href="!#" class="footer__logo">
+                                <img class="footer__logo-img" src="./icons/logo.svg" alt="logo">
+                            </a>
+
+    
+                                <ul class="footer__nav-list">
+                                    <li class="footer__nav-item">
+                                        <a class="footer__nav-link" href="!#">
+                                            Каталог
+                                        </a>
+                                    </li>
+                                    <li class="footer__nav-item">
+                                        <a class="footer__nav-link" href="!#">
+                                            Производители
+                                        </a>
+                                    </li>
+                                    <li class="footer__nav-item">
+                                        <a class="footer__nav-link" href="!#">
+                                            Для кого мы работаем
+                                        </a>
+                                    </li>
+                                    <li class="footer__nav-item">
+                                        <a class="footer__nav-link" href="!#">
+                                            Сертификаты
+                                        </a>
+                                    </li>
+                                    <li class="footer__nav-item">
+                                        <a class="footer__nav-link" href="!#">
+                                            О нас
+                                        </a>
+                                    </li>
+                                    <li class="footer__nav-item">
+                                        <a class="footer__nav-link" href="!#">
+                                            FAQ
+                                        </a>
+                                    </li>
+                                    <li class="footer__nav-item">
+                                        <a class="footer__nav-link" href="!#">
+                                            Контакты
+                                        </a>
+                                    </li>
+                                </ul>
+
+                                <button class="footer-btn">
+                                    ОСТАВИТЬ ЗАЯВКУ
+                                </button>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <script src="./js/button.js"></script>
+    <script src="./js/main.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    
+    
+
+</body>
+</html>
